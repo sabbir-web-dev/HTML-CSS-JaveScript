@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Progress Steap</title>
 
+    <!-- --font-awsome-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- style progressSteap  -->
     <link rel="stylesheet" href="/css/progressSteap.css" />
     <!-- --expanding-car--  -->
     <link rel="stylesheet" href="/css/expandingCars.css" />
+    <!-- --Hidden-search--  -->
+    <link rel="stylesheet" href="/css/Hidden-search.css" />
+
+
     <!-- --style-- -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="html-css-js">
+
+    <!-- --Hidden-search-start-- -->
+      <div class="hidden-search-wrap">
+        <div class="hidden-search">
+          <input type="text" name="search" class="hidden-search-input" placeholder="search" id="hidden-search">
+          <button type="button" class="hidden-search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    <!-- --Hidden-search-end-- -->
+
       <!-- --Progress-steap-start-- -->
       <div class="progress-container">
         <div class="progress-wrap">
@@ -75,8 +93,8 @@
         </div>
       </div>
       <!-- --expanding-card-end-- -->
-    </div>
 
+    </div>
     <!-- =======================java-script================== -->
 
     <!-- --progressStap  -->
@@ -84,5 +102,7 @@
 
     <!-- --expanding-card--  -->
     <script src="/js/expandingCard.js"></script>
+    <!-- --Hidden-search--  -->
+    <script src="/js/Hidden-search.js"></script>
   </body>
 </html>
